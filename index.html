@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>SJS LEO UNIVERSAL PROTOTYPE</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+        .sjs-grid { display: flex; gap: 20px; justify-content: center; }
+        .sjs-card { background: white; padding: 20px; border-radius: 15px; flex: 1; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #333; }
+        .hsh-header { color: #ff5722; } /* Hospitality Orange */
+        .crc-header { color: #2196f3; } /* Retail Blue */
+        button { cursor: pointer; padding: 10px; margin-top: 10px; background: #333; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
 <body class="sjs-shell">
+
+    <h1 style="text-align:center;">SJS LEO SECURE ENGINE</h1>
+    <p style="text-align:center;">Master Control Dashboard | Developer: Shayla Swarbrick</p>
+
     <div class="sjs-grid">
-        <div class="sjs-card sjs-unstealable">
-            <h1>SJS LEO SECURE ENGINE</h1>
-            <p>Protected Deployment for HSH, CRC, and CGM</p>
+        <div class="sjs-card">
+            <h3 class="hsh-header">HSH Prototype</h3>
+            <p><strong>Client: DHT</strong></p>
+            <p>Active Hospitality & Cafe Logic Deployment.</p>
+            <button>Launch HSH Engine</button>
+        </div>
+
+        <div class="sjs-card">
+            <h3 class="crc-header">CRC Prototype</h3>
+            <p><strong>Client: MAC / OWJC</strong></p>
+            <p>Hardened Retail & Inventory Management.</p>
+            <button>Launch CRC Engine</button>
         </div>
     </div>
 
     <script>
         document.addEventListener('contextmenu', e => {
             e.preventDefault();
-            alert("SJS LEO UNIVERSAL: Unauthorized access to source code is blocked."); // The popup you saw!
+            alert("SJS LEO UNIVERSAL: Unauthorized access to source code is blocked.");
         });
     </script>
 </body>

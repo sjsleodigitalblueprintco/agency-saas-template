@@ -1,0 +1,8 @@
+<div class="sjs-card">
+    <h3>Active Deployments</h3>
+    <ul style="list-style: none; padding: 0;">
+        <li>✅ <strong>HSH:</strong> Hospitality Logic (DHT)</li>
+        <li>✅ <strong>CRC:</strong> Retail Asset Management (MAC)</li>
+        <li>✅ <strong>CGM:</strong> Inventory Hardening (OWJC)</li>
+    </ul>
+</div>
